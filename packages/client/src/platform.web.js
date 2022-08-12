@@ -1,4 +1,5 @@
 import { IdbBlockStore } from 'ipfs-car/blockstore/idb'
+console.log(IdbBlockStore)
 
 export const fetch = globalThis.fetch
 export const Request = globalThis.Request
